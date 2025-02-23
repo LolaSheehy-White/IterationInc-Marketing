@@ -1,44 +1,125 @@
 .updates-section {
-    padding: 50px 20px;  /* Add some padding */
-    background-color: #f8f8f8;  /* A background color to distinguish it */
-    color: #333;  /* Text color */
-    margin-top: 100px;  /* To avoid being hidden by the navbar */
+    padding: 50px 20px; 
+    background-color: #f8f8f8; 
+    color: #0056b3;
+    margin-top: 60px; 
 }
-  
+
 .updates-title {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
 }
-  
+
 .updates-list {
     display: flex;
     flex-direction: column;
-    gap: 20px;  /* Space between each update item */
+    gap: 20px;  
 }
-  
+
 .update-item {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-  
+
 .update-title {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
-  
+
 .update-summary {
     font-size: 1rem;
     margin-bottom: 10px;
 }
-  
+
 .read-more {
-    color: #4117e5;
+    color: #0056b3;
     text-decoration: none;
 }
-  
+
 .read-more:hover {
     text-decoration: underline;
+}
+.updates-footAB {
+    background: linear-gradient(to bottom, #fff, #4117e5);
+    color: white;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 50px 20px; 
+    min-height: 300px; 
+    margin-top: 0; 
+}
+
+.updates-footAB h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.updates-footAB h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.updates-footAB p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    max-width: 700px;
+}
+
+.mailing-listAB {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+    width: 100%;
+    max-width: 500px;
+}
+
+.mailing-list .input-group {
+    display: flex; 
+    justify-content: space-between;  
+    width: 100%;
+    gap: 15px;
+}
+
+.mailing-list input {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    flex: 1;
+}
+
+.mailing-list input:focus {
+    outline: none;
+    border-color: #9a34ae;
+}
+
+.mailing-list button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.mailing-list button:hover {
+    background-color: #9a34ae;;
+    transform: scale(1.05);
+}
+
+.mailing-list input, .mailing-list button {
+    padding: 10px;
+    transition: all 0.3s ease;
 }
