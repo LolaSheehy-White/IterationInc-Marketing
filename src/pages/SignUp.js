@@ -14,19 +14,17 @@ const SignUp = () => {
         const body = "";
 
         const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-        window.location.href = mailtoLink; // This triggers the default email client
+        window.location.href = mailtoLink; 
     };
+
     const [formData, setFormData] = useState({ name: "", email: "" });
     const [submitted, setSubmitted] = useState(false);
 
     const handleSubmit = (e) => {
-        e.preventDefault(); // Prevent default form submission
+        e.preventDefault(); 
         if (formData.name && formData.email) {
         setSubmitted(true);
-          // In a real application, send the data to your backend or email service
-          // Example: 
-          // fetch('/submit', { method: 'POST', body: JSON.stringify(formData) })
-        console.log("Form Submitted:", formData); // Just logs for now
+        console.log("Form Submitted:", formData);
         } else {
         alert("Please enter both your name and email.");
         }
@@ -66,7 +64,7 @@ const SignUp = () => {
                     </div>
                 </section>
             </main>
-            <div className="updates-foot">
+            <div className="updates-footSU">
                 <h4>We are different</h4>
                 <h1>Driven by innovation</h1>
                 <p>Aiming to introduce tech that helps, not confuses</p>

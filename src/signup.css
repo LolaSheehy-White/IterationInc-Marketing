@@ -1,5 +1,4 @@
 .SignUp {
-  /* Background with gradient */
   margin-top: 90px;
   background: linear-gradient(to bottom, #4117e5, #9a348e, #4117e5);
   min-height: 100vh;
@@ -13,16 +12,16 @@
   width: 100%;
   justify-content: center;
   text-align: center;
-  flex-wrap: wrap; /* Allow content to wrap */
+  flex-wrap: wrap; 
 }
 
 .main-left, .main-right {
-  flex: 1; /* Ensure both sections take equal width */
+  flex: 1; 
   display: flex;
   justify-content: center;
-  align-items: center; /* Center content */
-  overflow: auto; /* Ensure content can scroll */
-  height: 100%; /* Full height of the parent container */
+  align-items: center; 
+  overflow: auto; 
+  height: 100%; 
   padding: 0 20px;
 }
 
@@ -51,32 +50,32 @@
   transform: scale(1.05);
 }
 
-.updates-foot {
+.updates-footSU {
   background: linear-gradient(to bottom, #6b2473, #390dead5);
   color: white;
-  display: flex; /* Use flexbox to align content */
-  flex-direction: column; /* Stack the content vertically */
-  justify-content: center; /* Vertically center content */
-  align-items: center; /* Horizontally center content */
-  text-align: center; /* Center text */
-  padding: 50px 20px; /* Add padding for spacing */
-  min-height: 300px; /* Ensure the footer has a minimum height */
-  margin-top: 0; /* Reset any unnecessary margin */
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  padding: 50px 20px; 
+  min-height: 300px; 
+  margin-top: 0; 
 }
 
-.updates-foot h4 {
+.updates-footSU h4 {
   font-size: 1.5rem;
   font-weight: 400;
   margin-bottom: 10px;
 }
 
-.updates-foot h1 {
+.updates-footSU h1 {
   font-size: 2.5rem;
   font-weight: 600;
   margin-bottom: 15px;
 }
 
-.updates-foot p {
+.updates-footSU p {
   font-size: 1rem;
   margin-bottom: 20px;
   max-width: 700px;
