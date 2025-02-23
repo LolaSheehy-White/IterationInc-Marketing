@@ -1,0 +1,123 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px; /* Full height of the viewport */
+    width: 100%; /* Adjust width as needed */
+    background-color: #4117e5; /* 90% opacity */
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items to the top */
+    z-index: 1000;
+}
+  
+  /* Style for the logo or left section */
+.navbar-left {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-left h1 bold{
+    color: #fca17d;
+}
+  
+  /* Center the navigation links */
+.navbar-right {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+    margin-left: auto;
+    padding-right: 2rem;
+}
+  
+  /* Style for the navigation links */
+.navbar-right .nav-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
+    margin: 20;
+    padding: 0;
+    gap: 20px;
+}
+  
+.navbar-right .nav-links li {
+    text-align: right; /* Ensure text is aligned to the left */
+}
+  
+.navbar-right .nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.navbar-right .nav-links a:hover {
+    color: #9a34ae;
+}
+  
+  /* Snake logo  stuff */
+.snake {
+    height: 10vmin;
+    pointer-events: none;
+}
+.footer {
+    width: 100%; /* Full width */
+    height: 100%;
+    background-color: #4117e5; /* Background color */
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: space-between; /* Align the logo and nav links */
+    box-sizing: border-box; /* Prevent overflow due to padding */
+    margin-top: 0px; /* Space before footer */
+}
+  
+.footer-header {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-header h1 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-header h1 bold {
+    color: #fca17d;
+}
+  
+.footer-main {
+    display:inline;
+    align-items: left;
+    justify-content: flex-start;
+    padding-right: 2rem;
+}
+  
+.footer-main .footer-links {
+    list-style-type: none;
+    display: grid; /* Using grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Create two equal-width columns */
+    gap: 20px; /* Add space between items */
+    padding: 0;
+}
+  
+.footer-main .footer-links li {
+    text-align: right; /* Optional: Align text to the left */
+}
+  
+.footer-main .footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.footer-main .footer-links a:hover {
+    color: #9a34ae;
+}
+  
+  

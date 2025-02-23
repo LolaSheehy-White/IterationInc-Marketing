@@ -1,0 +1,116 @@
+.SignUp {
+  /* Background with gradient */
+  margin-top: 90px;
+  background: linear-gradient(to bottom, #4117e5, #9a348e, #4117e5);
+  min-height: 100vh;
+  color: white;
+}
+
+.main {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap; /* Allow content to wrap */
+}
+
+.main-left, .main-right {
+  flex: 1; /* Ensure both sections take equal width */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content */
+  overflow: auto; /* Ensure content can scroll */
+  height: 100%; /* Full height of the parent container */
+  padding: 0 20px;
+}
+
+.Home, .Family {
+  text-align: center;
+  margin: 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  outline: 1px solid #fca17d;;
+  outline-offset: 3px;
+  color: white;
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  font-weight: lighter;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: none;
+  transform: none;
+  perspective: none;
+  cursor:pointer;
+}
+
+.button-link:hover {
+  background-color: #9a34ae; /* Darker blue */
+  outline-color: #fca17d;
+}
+
+.updates-foot {
+  background: linear-gradient(to bottom, #6b2473, #390dead5);
+  color: white;
+  display: flex; /* Use flexbox to align content */
+  flex-direction: column; /* Stack the content vertically */
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content */
+  text-align: center; /* Center text */
+  padding: 50px 20px; /* Add padding for spacing */
+  min-height: 300px; /* Ensure the footer has a minimum height */
+  margin-top: 0; /* Reset any unnecessary margin */
+}
+
+.updates-foot h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.updates-foot h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.updates-foot p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  max-width: 700px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Space between input fields */
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.signup-form input {
+  padding: 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  margin-bottom: 10px;
+}
+
+.signup-form input:focus {
+  outline: none;
+  border-color: #9a34ae;
+}
+
+.signup-form input, .signup-form button {
+  transition: all 0.3s ease;
+}

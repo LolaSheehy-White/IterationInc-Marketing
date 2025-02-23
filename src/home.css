@@ -1,0 +1,178 @@
+/* Ensure the rest of the page content is not hidden behind the navbar */
+.HomeScreen {
+  /* Adjust based on navbar width */
+  margin-top: 60px;
+  background: linear-gradient(to left bottom, #4117e5 14%, #0d0628);
+  min-height: 100vh;
+  color: white;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-right: 300px;
+  margin-left: 50px;
+  margin-bottom: 200px;
+}
+.App-header h1 {
+  margin-top: 200px;
+}
+.header-section{
+  margin-top: 50px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  outline: 1px solid #fca17d;;
+  outline-offset: 3px;
+  color: white;
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  font-weight: lighter;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button-link:hover {
+  background-color: #9a34ae; /* Darker blue */
+  outline-color: #fca17d;
+}
+
+.main{
+  display: flex;
+  width: 100%;
+  background-color: #0d062841;
+  height: 100vh;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.main-left{
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  min-height: 100vh;
+  overflow-y: auto;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+.middleMain {
+  height: 10vmin;
+  padding: 0;
+}
+
+.littleMain {
+  height: 10vmin;
+}
+
+.USP-unseen{
+  margin-top: 500px;
+  margin-bottom: 500px;
+} 
+
+.USP-intro{
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.USP-usability{
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.USP-connectivity{
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.USP-game{
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.main-right {
+  margin: 0 !important;
+  padding: 0 !important;
+  flex: 1; 
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.imageMain {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Parallax Section with background image */
+.parallax-section {
+  position: relative;
+  height: 100vh; /* Full screen */
+  min-height: 100vh;
+  background-image:url("teamTogether.PNG"); /* Your background image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Creates the parallax effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+/* The content inside the parallax section */
+.parallax-content {
+  position: absolute;
+  z-index: 2; /* Make sure the text is above the image */
+  color: white;
+  max-width: 100%;
+  text-align: center;
+}
+
+/* Heading in the parallax section */
+.parallax-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Paragraph and button in the parallax section */
+.parallax-content h4 {
+  font-size: 1.5rem;
+}
+
+/* Button styling */
+.parallax-content .button-link {
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: transparent; /* Button background color */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.parallax-content .button-link:hover {
+  background-color: #9a34ae; /* Button hover effect */
+}
