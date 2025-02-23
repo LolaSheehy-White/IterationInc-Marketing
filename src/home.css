@@ -44,6 +44,7 @@
 .button-link:hover {
   background-color: #9a34ae; /* Darker blue */
   outline-color: #fca17d;
+  transform: scale(1.05);
 }
 
 .main{

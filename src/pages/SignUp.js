@@ -72,22 +72,24 @@ const SignUp = () => {
                 <p>Aiming to introduce tech that helps, not confuses</p>
                 <p>Client-centred</p>
                 <form onSubmit={handleSubmit} className="mailing-list">
-                <input
-                type="text"
-                name="name"
-                placeholder="Your Name"
-                value={formData.name}
-                onChange={handleChange}
-                required
-                />
-                <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-                />
+                    <div className="input-group">
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Your Name"
+                            value={formData.name}
+                            onChange={handleChange}
+                            required
+                        />
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Your Email"
+                            value={formData.email}
+                            onChange={handleChange}
+                            required
+                        />
+                    </div>
                 <button type="submit" 
                 className="button-link"> 
                     Join our mailing list!

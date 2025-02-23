@@ -31,27 +31,24 @@
   margin: 0;
 }
 
-.button {
-  display: inline-block;
-  padding: 10px 20px;
+.button-link {
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: #fff;
   background-color: transparent;
-  outline: 1px solid #fca17d;;
-  outline-offset: 3px;
-  color: white;
-  text-decoration: none; /* Remove underline */
-  border-radius: 5px; /* Rounded corners */
+  text-decoration: none;
+  border-radius: 30px;
   font-weight: lighter;
-  text-align: center;
-  transition: background-color 0.3s ease-in-out;
-  box-shadow: none;
-  transform: none;
-  perspective: none;
-  cursor:pointer;
+  font-style: italic;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: none;
+  margin-top: 10px;
 }
 
 .button-link:hover {
-  background-color: #9a34ae; /* Darker blue */
+  background-color: #9a34ae;
   outline-color: #fca17d;
+  transform: scale(1.05);
 }
 
 .updates-foot {
@@ -85,32 +82,53 @@
   max-width: 700px;
 }
 
-.signup-form {
+.mailing-list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px; /* Space between input fields */
-  margin-top: 20px;
+  gap: 20px; 
   width: 100%;
   max-width: 500px;
 }
 
-.signup-form input {
-  padding: 30px;
+.mailing-list .input-group {
+  display: flex; 
+  justify-content: space-between;  
+  width: 100%;
+  gap: 15px;
+}
+
+.mailing-list input {
+  padding: 12px;
   font-size: 1rem;
   border-radius: 5px;
   border: 1px solid #ddd;
-  width: 100%;
-  max-width: 400px;
-  height: 400px;
-  margin-bottom: 10px;
+  flex: 1;
 }
 
-.signup-form input:focus {
+.mailing-list input:focus {
   outline: none;
   border-color: #9a34ae;
 }
 
-.signup-form input, .signup-form button {
+.mailing-list button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: lighter;
+  font-style: italic;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.mailing-list button:hover {
+  background-color: #9a34ae;;
+  transform: scale(1.05);
+}
+
+.mailing-list input, .mailing-list button {
+  padding: 10px;
   transition: all 0.3s ease;
 }
