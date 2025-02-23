@@ -94,7 +94,7 @@ const HomeScreen = () => {
               alt="line drawing lightbulb with plant growing inside"
               className="littleMain"
             />
-            <h4> Incentivise independance </h4>
+            <h4> Incentivise independence </h4>
             <h1> Game features </h1>
             <p> Climate-friendly </p>
             <p> Simple </p>
