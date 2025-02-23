@@ -1,0 +1,155 @@
+.parallax-hero {
+    position: relative;
+    min-height: 100vh;
+    background-image: url("blueBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 100px;
+    z-index: 1;
+}
+
+.PH-content, .faq-section, .resources-section, .emailUs {
+    border-radius: 55px;
+    height: 400px; 
+    width: 60%;
+    position: relative; 
+    z-index: 2;
+    color: #0056b3;
+    max-width: 60%;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    padding: 100px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    margin: 60px;
+}
+
+.PH-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.PH-content h4 {
+    font-size: 1.5rem;
+}
+
+.PH-content .button-link {
+    padding: 12px 24px;
+    font-size: 1rem;
+    color:#0056b3;
+    outline-color:#0056b3;
+    background-color: transparent; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.PH-content .button-link:hover {
+    background-color: #9a34ae; 
+    color:white;
+    transform: scale(1.05);
+}
+
+.faq-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    font-size: 1rem;
+    padding-left: 20px;
+    border-left: 4px solid #007BFF;
+}
+
+.resources-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.resource-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resource-link {
+    font-size: 1.2rem;
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.resource-link:hover {
+    color: #0056b3;
+}
+
+.emailUs h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.emailUs h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.emailUs p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    max-width: 700px;
+}
+
+
+.email-button {
+    padding: 30px;
+    font-size: 1rem;
+    color:#0056b3;
+    border-color: #0056b3;
+    border-width: 1px;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-weight: lighter;
+    font-style: italic;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
+}
+
+.email-button:hover {
+    background-color: #9a34ae; 
+    color:white;
+    transform: scale(1.05);
+}
+
+.email-button {
+    padding: 10px;
+    transition: all 0.3s ease;
+}
