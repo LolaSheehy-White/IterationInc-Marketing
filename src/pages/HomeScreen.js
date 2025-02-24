@@ -47,7 +47,7 @@ const HomeScreen = () => {
             </div>
             <div className="USP-intro"> 
             <img
-              src="/images/heartHome.png"
+              src="/images/heartHome.PNG"
               alt="Line drawing home with lightbulb and heart inside"
               className="middleMain"
             />
@@ -66,7 +66,7 @@ const HomeScreen = () => {
             </div>
             <div className="USP-usability"> 
             <img
-              src="/images/helpingHands.png"
+              src="/images/helpingHands.PNG"
               alt="line drawing hands shaking"
               className="littleMain"
             />
@@ -78,7 +78,7 @@ const HomeScreen = () => {
             </div>
             <div className="USP-connectivity"> 
             <img
-              src="/images/connectedCogs.png"
+              src="/images/connectedCogs.PNG"
               alt="Line drawing of cogs working together"
               className="littleMain"
             />
@@ -90,7 +90,7 @@ const HomeScreen = () => {
             </div>
             <div className="USP-game"> 
             <img
-              src="/images/bloomingBulb.png"
+              src="/images/bloomingBulb.PNG"
               alt="line drawing lightbulb with plant growing inside"
               className="littleMain"
             />
