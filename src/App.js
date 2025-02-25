@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import ScrollToTop from "./components/scrollToTop.js";
 import Navbar from "./components/nav.js";
 import Footer from "./components/footer.js";
 import HomeScreen from "./pages/HomeScreen.js";
@@ -16,13 +17,13 @@ import "./help.css";
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route exact path="/" element={<HomeScreen />} />
         <Route path="/SignUp" element={<SignUp />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/Help" element={<HelpPage />} />
-        <Route path="/footer" element={<Footer />} />
       </Routes>
     </Router>
   );
