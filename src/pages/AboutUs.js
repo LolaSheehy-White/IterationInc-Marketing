@@ -17,7 +17,7 @@ const AboutUs = () => {
         setSubmitted(true);
           // could send  data to backend or email service
           // fetch('/submit', { method: 'POST', body: JSON.stringify(formData) })
-        console.log("Form Submitted:", formData);
+        console.log("Form Submitted:", formData); 
         } else {
         alert("Please enter both your name and email.");
         }
