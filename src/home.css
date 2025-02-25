@@ -17,10 +17,13 @@
   margin-bottom: 200px;
 }
 .App-header h1 {
-  margin-top: 200px;
+  margin-top: 150px;
+  margin-bottom: 30px;
 }
-.header-section{
+
+.header-section p{
   margin-top: 50px;
+  margin-bottom: 50px;
   font-style: italic;
   font-weight: 200;
 }
@@ -65,7 +68,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 
@@ -80,28 +83,21 @@
 
 .USP-unseen{
   margin-top: 500px;
-  margin-bottom: 500px;
+  margin-bottom: 700px;
 } 
 
-.USP-intro{
+.USP-intro, .USP-usability, .USP-connectivity{
   margin-top: 90px;
   margin-bottom: 90px;
-}
-
-.USP-usability{
-  margin-top: 90px;
-  margin-bottom: 90px;
-}
-
-.USP-connectivity{
-  margin-top: 90px;
-  margin-bottom: 90px;
+  text-align: left;
 }
 
 .USP-game{
   margin-top: 90px;
-  margin-bottom: 90px;
+  margin-bottom: 100px;
+  text-align: left;
 }
+
 
 .main-right {
   margin: 0 !important;

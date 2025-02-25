@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 import Navbar from "../components/nav";
 
 import Footer from "../components/footer";
@@ -13,14 +15,10 @@ const HomeScreen = () => {
       <header className="App-header">
         <h1> Revolutionising long-term healthcare, helping you care. </h1>
         <div className="header-section"> 
-          <p> Something or other we are super cool and great </p>
-          <a
-          className="button-link"
-          href="/sign-up"  
-          >
+          <p> Join us in suppporting independence, enhancing connectivity, and optimising energy use! </p>
+          <Link className="button-link" to="/SignUp">
           Sign up
-          </a>
-
+          </Link>
         </div>
       </header>
 
@@ -32,18 +30,10 @@ const HomeScreen = () => {
               alt="Line drawing home with lightbulb and heart inside"
               className="middleMain"
             />
-            <h4> Ignore this </h4>
+            <h4> Ignore </h4>
             <h1> I need to fix it </h1>
             <p> But I keep breaking it</p>
-            <p> This is helping fix it for now </p>
-            <a
-              className="button-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-            Reviews
-            </a>
+            <p> This is my fix at this point xox </p>
             </div>
             <div className="USP-intro"> 
             <img
@@ -53,16 +43,12 @@ const HomeScreen = () => {
             />
             <h4> We are different </h4>
             <h1> Driven by innovation </h1>
-            <p> Aiming to introduce tech that helps, not confuses</p>
-            <p> Client centred </p>
-            <a
-              className="button-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <p> Aiming to introduce tech that supports, not overwhelms</p>
+            <p> Client centred - we have built our technology around real needs and people, ensuring inclusive support </p>
+            <p> Trusted by many, see what others say! </p>
+            <Link className="button-link" to="/SignUp">
             Reviews
-            </a>
+            </Link>
             </div>
             <div className="USP-usability"> 
             <img
@@ -72,9 +58,10 @@ const HomeScreen = () => {
             />
             <h4> Aiding independence </h4>
             <h1> Simple to use </h1>
-            <p> You know your residents best </p>
-            <p> Alter permissions </p>
-            <p> Residents can customise too </p>
+            <p> With a functional and straightforward interface to allow a seamless and simple transition into smart care for both staff and residents </p>
+            <h4> You know your residents best </h4>
+            <p>  The manager of your smart home can alter permissions for each user to ensure the best experience for all</p>
+            <p> Users can also customise their own layout, supporting individuality and independence in all aspects </p>
             </div>
             <div className="USP-connectivity"> 
             <img
@@ -82,11 +69,12 @@ const HomeScreen = () => {
               alt="Line drawing of cogs working together"
               className="littleMain"
             />
-            <h4> Keeping everyine in the loop </h4>
+            <h4> Keeping everyone in the loop </h4>
             <h1> Weekly reports </h1>
-            <p> Families can join too </p>
-            <p> 'Before this I felt helpless, I love my mum but I live sooo far away #sad, I love that now if she needs help I can turn her lights, heating, etc. on without having to contact and disrupt the staff' </p>
-            <p> - debbie xox</p>
+            <p> Staff, residents and now families too, can all stay informed with our weekly energy reports, customisable to show as much or as little information as you wish! </p>
+            <p> Now with the ability to add family members onto residents' profiles- loved ones can stay involved, no matter the distance  </p>
+            <p> 'Before this I felt helpless. I love my mum, but I live so far away. Now, if she needs help, I can adjust her lights, heating, and more - without disrupting the staff!' </p>
+            <p> - Lauren McIpsum </p>
             </div>
             <div className="USP-game"> 
             <img
@@ -94,11 +82,11 @@ const HomeScreen = () => {
               alt="line drawing lightbulb with plant growing inside"
               className="littleMain"
             />
-            <h4> Incentivise independence </h4>
+            <h4> Smart energy - smarter care </h4>
             <h1> Game features </h1>
-            <p> Climate-friendly </p>
-            <p> Simple </p>
-            <p> More text ? </p>
+            <p> Fun, non competitive game features to incentivise optimal energy usage and reduce waste </p>
+            <p> Encoraging everyone to make deliberate decisions towards a climate-friendly lifestyle </p>
+            <p> Engaging and simple, making energy savings effortless and fun! </p>
             </div>
         </section>
         <section className="main-right">
@@ -112,15 +100,10 @@ const HomeScreen = () => {
       <section className="parallax-section">
         <div className="parallax-content">
           <h4>Our Team</h4>
-          <h1>We are so cool and great</h1>
-          <a
-            className="button-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <h1>Together, we can make a difference.</h1>
+          <Link className="button-link" to="/AboutUs">
             About us
-          </a>
+          </Link>
         </div>
       </section>
       <Footer>
