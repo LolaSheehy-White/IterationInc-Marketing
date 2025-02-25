@@ -48,7 +48,7 @@
   transform: scale(1.05);
 }
 
-.main{
+.mainH{
   display: flex;
   width: 100%;
   background-color: #0d062841;
@@ -60,6 +60,7 @@
 .main-left{
   margin: 0;
   padding: 0;
+  padding-left: 20px;
   flex: 1;
   min-height: 100vh;
   overflow-y: auto;

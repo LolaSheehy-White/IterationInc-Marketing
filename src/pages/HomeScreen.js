@@ -22,7 +22,7 @@ const HomeScreen = () => {
         </div>
       </header>
 
-      <main className="main">
+      <main className="mainH">
         <section className="main-left">
           <div className="USP-unseen"> 
             <img
@@ -46,7 +46,7 @@ const HomeScreen = () => {
             <p> Aiming to introduce tech that supports, not overwhelms</p>
             <p> Client centred - we have built our technology around real needs and people, ensuring inclusive support </p>
             <p> Trusted by many, see what others say! </p>
-            <Link className="button-link" to="/SignUp">
+            <Link className="button-link" to="/reviews">
             Reviews
             </Link>
             </div>

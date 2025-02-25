@@ -30,7 +30,7 @@ const Footer = () => {
             <Link to="/">Careers</Link>
             </li>
             <li>
-            <Link to="/Aboutus">anything else?</Link>
+            <a href="/reviews#contactUs"> Contact us </a>
             </li>
         </ul>
         </div>

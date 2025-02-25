@@ -29,8 +29,10 @@ const HelpPage = () => {
         <section className="parallax-hero">
         <div className="PH-content">
             <h4>Need help? We're here!</h4>
-            <h1>Have a look at our resources or get in touch!</h1>
-            <a className="button-link" href="/reviews#contactUs">
+            <h1>
+            <a href="#resources">Have a look at our resources</a> or get in touch!
+            </h1>
+            <a className="button-H" href="/reviews#contactUs">
                 Contact us
             </a>
         </div>
@@ -62,14 +64,14 @@ const HelpPage = () => {
                 <h3>How do I contact customer support?</h3>
                 {activeFAQ === 2 && (
                 <p className="faq-answer">
-                    You can reach out to customer support by clicking the 'Contact Support' button at the top of this page.
+                    You can reach out to customer support by clicking the 'Contact us' button at the top of this page, or in the box above this.
                 </p>
                 )}
             </div>
             </div>
         </div>
         </section>
-        <section className="resources-section">
+        <section className="resources-section" id='resources'>
         <h2>Help Resources</h2>
         <div className="resource-links">
             <a href="/user-guide" className="resource-link">User Guide</a>
@@ -79,13 +81,13 @@ const HelpPage = () => {
         </section>
         <section className="emailUs">
                 <div className="Home">
-                        <h4>We are different</h4>
-                        <h1>Driven by innovation</h1>
-                        <p>Aiming to introduce tech that helps, not confuses</p>
-                        <p>Client-centred</p>
+                        <h4>I cannot remember</h4>
+                        <h1>What I was going to put in this box</h1>
+                        <p> Ideas welcome </p>
+                        <p>Email box? </p>
                         <button onClick={sendEmail} 
-                        className="email-button">
-                        Email Us About Reviews
+                        className="button-H">
+                        Email Us 
                         </button>
                     </div>
                 </section>

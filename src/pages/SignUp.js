@@ -61,7 +61,7 @@ const SignUp = () => {
             <h1>Do you want to be the next smart care home?</h1>
             <p>Just email us with your home name and contact details,</p>
             <p>then we will contact you to discuss how we can provide the best technology for your care home specifically!</p>
-            <button onClick={sendEmail} className="button-link">
+            <button onClick={sendEmail} className="button-email">
                 Email Us
             </button>
             </div>
@@ -73,7 +73,7 @@ const SignUp = () => {
             <h4>Families:</h4>
             <h1>Want to stay connected no matter the distance?</h1>
             <p>Just email us with your family member's place of residence and we'll take it from there!</p>
-            <button onClick={sendEmail} className="button-link">
+            <button onClick={sendEmail} className="button-email">
                 Email Us
             </button>
             </div>
@@ -118,8 +118,7 @@ const SignUp = () => {
                             required
                         />
                     </div>
-                <button type="submit" 
-                className="button-link"> 
+                <button type="submit"> 
                     Join our mailing list!
                 </button>
                 </form>
