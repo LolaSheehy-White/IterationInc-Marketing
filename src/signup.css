@@ -1,53 +1,124 @@
 .SignUp {
-  margin-top: 90px;
+  padding-top: 165px;
   background: linear-gradient(to bottom, #4117e5, #9a348e, #4117e5);
   min-height: 100vh;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
 }
 
 .main {
-  padding-top: 100px;
-  padding-bottom: 150px;
-  display: flex;
   width: 100%;
-  justify-content: center;
   text-align: center;
-  flex-wrap: wrap; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
 }
 
-.main-left, .main-right {
-  flex: 1; 
+.info-line{
+  color: white;
+  font-style: italic;
+  font-size: 1.2rem;
+  text-align: center;
+  left: 0%;
+  right: 0%;
+  transform: translateX(-0%);
+  margin-top: 20px;
+  padding: 10px 0;
+  position:absolute; 
+  top: 110px; 
+  z-index: 1;
+}
+
+.content-container {
+  color: #fff;
+  background: transparent;
+  border-color: #500f49;
+  border-radius: 20px 20px 0 0;
+  margin: 0;
+  margin-left: 60px;
+  padding: 0;
+  max-width: 70%;
+  overflow:hidden;
+  transform: translateY(100%);
+  left: 0%;
+  right: 0%;
+  opacity: 0;
+  transition: transform 0.8s ease-in-out, max-height 1s ease-in-out, opacity 0.5s ease-in-out;
   display: flex;
   justify-content: center;
-  align-items: center; 
-  overflow: auto; 
-  height: 100%; 
-  padding: 0 20px;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  bottom: -100%;
 }
 
-.Home, .Family {
-  text-align: center;
-  margin: 0;
+.content-container.active {
+  transform: translateY(0); 
+  background:#9a348e;
+  border-color: #500f49;
+  padding: 60px;
+  opacity:1;
+  max-height: 500px;
+  bottom: 0;
 }
 
-.button-link {
-  padding: 12px 24px;
+.content-container.closing {
+  max-height: 0; 
+  transform: translateY(100%);
+  opacity:0;
+  bottom: -100%;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 0;
+  position: relative;
+  padding-top: 20px;
+}
+
+.toggle-buttons button {
+  padding: 20px 40px;
   font-size: 1rem;
-  color: #fff;
-  background-color: transparent;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: lighter;
-  font-style: italic;
-  transition: background-color 0.3s ease, transform 0.3s ease;
   border: none;
-  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  cursor: pointer;
+  border-radius: 50px 50px 0 0; 
+  transition: background-color 0.5s ease-out, transform 0.5s ease-out, border-radius 0.5s ease-out;
+  position: relative;
+  z-index: 3; 
 }
 
-.button-link:hover {
+.toggle-buttons button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.toggle-buttons button.active {
   background-color: #9a34ae;
-  outline-color: #fca17d;
+  font-weight: bold;
   transform: scale(1.05);
+  transition: transform 0.5s ease-out, background-color 0.5s ease-out;
+  transform: translateY(-10px);
+}
+
+.toggle-buttons button:after {
+  content: '';
+  position: absolute;
+  bottom: -10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 5px;
+  background-color: #9a34ae;
+  border-radius: 10px;
 }
 
 .updates-footSU {
@@ -58,9 +129,11 @@
   justify-content: center; 
   align-items: center; 
   text-align: center; 
-  padding: 50px 20px; 
+  padding-top: 90px;
+  padding-bottom: 90px;
   min-height: 300px; 
   margin-top: 0; 
+  width: 100%;
 }
 
 .updates-footSU h4 {
@@ -78,7 +151,7 @@
 .updates-footSU p {
   font-size: 1rem;
   margin-bottom: 20px;
-  max-width: 700px;
+  max-width: 500px;
 }
 
 .mailing-list {
