@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 
 import Navbar from '../components/nav';
 import Footer from '../components/footer';
@@ -29,16 +30,10 @@ const HelpPage = () => {
         <div className="PH-content">
             <h4>Need help? We're here!</h4>
             <h1>Have a look at our resources or get in touch!</h1>
-            <a
-            className="button-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-            About us
+            <a className="button-link" href="/reviews#contactUs">
+                Contact us
             </a>
-            </div>
-
+        </div>
         <section className="faq-section">
         <h2>Frequently Asked Questions</h2>
         <div className="faq-list">
