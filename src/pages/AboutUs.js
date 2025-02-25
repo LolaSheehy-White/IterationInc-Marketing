@@ -32,28 +32,26 @@ const AboutUs = () => {
         <div className="aboutus-page">
             <Navbar />
             <section className="updates-section">
-                <h2 className="updates-title">Latest Updates</h2>
+                <h2 className="updates-title">Latest Updates:</h2>
                 <div className="updates-list">
                     <div className="update-item">
-                        <h3 className="update-title">Update Title #1</h3>
+                        <h3 className="update-title">Family plans added</h3>
                         <p className="update-summary">
-                            This is a brief summary of the update. It gives a quick insight into what
-                            the update is about.
+                            In recent feedback have recieved countless requests from families wanting to join in on the fun, we are happy to announce this is now an option! ...
                         </p>
                         <a href="#" className="read-more">Read More</a>
                     </div>
                     <div className="update-item">
-                        <h3 className="update-title">Update Title #2</h3>
+                        <h3 className="update-title">Testing personalisation options</h3>
                         <p className="update-summary">
-                            Another brief summary of a different update, to keep the user engaged.
+                            In preperation to provide more options for user personalisation we are testing options, taking feedback, do you want to help us? We are testing ...
                         </p>
                         <a href="#" className="read-more">Read More</a>
                     </div>
                     <div className="update-item">
-                        <h3 className="update-title">Update Title #3</h3>
+                        <h3 className="update-title">Discounts for NHS care homes</h3>
                         <p className="update-summary">
-                            A short introduction to the update content that entices the user to click
-                            for more details.
+                            We are very excited to announce that we are working with the National Health Service and from now, all care homes under the NHS get a discount of ...
                         </p>
                         <a href="#" className="read-more">Read More</a>
                     </div>
@@ -61,10 +59,9 @@ const AboutUs = () => {
 
             </section>
             <div className="updates-footAB">
-                <h4>We are different</h4>
-                <h1>Driven by innovation</h1>
-                <p>Aiming to introduce tech that helps, not confuses</p>
-                <p>Client-centred</p>
+                <h4>Want to stay in the loop?</h4>
+                <h1>Join our mailing list!</h1>
+                <p>We'll keep you informed of important monthly updates, and dont worry you can unsubscribe at any time!</p>
                 <form onSubmit={handleSubmit} className="mailing-list">
                     <div className="input-group">
                         <input
