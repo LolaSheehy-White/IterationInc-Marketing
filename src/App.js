@@ -7,12 +7,14 @@ import HomeScreen from "./pages/HomeScreen.js";
 import SignUp from "./pages/SignUp.js";
 import AboutUs from "./pages/AboutUs.js";
 import HelpPage from "./pages/Help.js";
+import Reviews from "./pages/reviews.js";
 
 import "./navfoot.css";
 import "./home.css";
 import "./signup.css";
 import "./aboutus.css";
 import "./help.css";
+import "./reviews.css";
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
         <Route path="/SignUp" element={<SignUp />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/Help" element={<HelpPage />} />
+        <Route path="/reviews" element={<reviews />} />
       </Routes>
     </Router>
   );
