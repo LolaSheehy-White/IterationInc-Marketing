@@ -81,6 +81,11 @@
   transition: background-color 0.3s ease-in-out;
 }
 
+.button-email:hover {
+  background-color: #9a34ae; 
+  transform: scale(1.05);
+}
+
 .content-container.closing {
   max-height: 0; 
   transform: translateY(100%);
@@ -197,22 +202,6 @@
   border-color: #9a34ae;
 }
 
-.mailing-list button {
-  padding: 12px 24px;
-  font-size: 1rem;
-  color: #fff;
-  background-color: transparent;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: lighter;
-  font-style: italic;
-  box-shadow: none;
-}
-
-.mailing-list button:hover {
-  background-color: #9a34ae;;
-  transform: scale(1.05);
-}
 
 .mailing-list input, .mailing-list button {
   padding: 10px;
