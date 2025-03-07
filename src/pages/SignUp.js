@@ -118,7 +118,7 @@ const SignUp = () => {
                             required
                         />
                     </div>
-                <button type="submit"> 
+                <button type="submit" className="button-email"> 
                     Join our mailing list!
                 </button>
                 </form>

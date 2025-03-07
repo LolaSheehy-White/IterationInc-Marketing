@@ -68,6 +68,7 @@
 }
 
 .button-email {
+  all: unset;
   display: inline-block;
   padding: 10px 20px;
   background-color: transparent;
