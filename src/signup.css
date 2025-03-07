@@ -27,7 +27,7 @@
   left: 0%;
   right: 0%;
   transform: translateX(-0%);
-  margin: 20px 0 20px;
+  margin-top: 20px;
   position:absolute; 
   top: 110px; 
   z-index: 1;
