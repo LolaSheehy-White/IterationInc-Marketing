@@ -74,9 +74,9 @@ const HelpPage = () => {
         <section className="resources-section" id='resources'>
         <h2>Help Resources</h2>
         <div className="resource-links">
-            <a href="/user-guide" className="resource-link">User Guide</a>
-            <a href="/tutorials" className="resource-link">Tutorials</a>
-            <a href="/community-forum" className="resource-link">Community Forum</a>
+            <a href="/user-guide" className="button-H">User Guide</a>
+            <a href="/tutorials" className="button-H">Tutorials</a>
+            <a href="/community-forum" className="button-H">Community Forum</a>
         </div>
         </section>
         <section className="emailUs">
