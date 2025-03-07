@@ -13,7 +13,7 @@ const HomeScreen = () => {
   return (
     <div className="HomeScreen">
       <header className="App-header">
-        <h1> Revolutionising long-term healthcare, helping you care. </h1>
+        <h1> TESTING CONECTION Revolutionising long-term healthcare, helping you care. </h1>
         <div className="header-section"> 
           <p> Join us in suppporting independence, enhancing connectivity, and optimising energy use! </p>
           <Link className="button-link" to="/SignUp">
