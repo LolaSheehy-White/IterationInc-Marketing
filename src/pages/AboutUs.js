@@ -82,7 +82,7 @@ const AboutUs = () => {
                         />
                     </div>
                 <button type="submit" 
-                className="button-link"> 
+                className="button-aboutMail"> 
                     Join our mailing list!
                 </button>
                 </form>
