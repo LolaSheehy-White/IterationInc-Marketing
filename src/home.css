@@ -87,18 +87,11 @@
   margin-bottom: 700px;
 } 
 
-.USP-intro, .USP-usability, .USP-connectivity{
+.USP-intro, .USP-usability, .USP-connectivity, .USP-game{
   margin-top: 90px;
   margin-bottom: 90px;
   text-align: left;
 }
-
-.USP-game{
-  margin-top: 90px;
-  margin-bottom: 100px;
-  text-align: left;
-}
-
 
 .main-right {
   margin: 0 !important;
