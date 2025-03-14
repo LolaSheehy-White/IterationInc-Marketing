@@ -17,7 +17,7 @@ const HomeScreen = () => {
         <div className="header-section"> 
           <p> Join us in suppporting independence, enhancing connectivity, and optimising energy use! </p>
           <Link className="button-link" to="/SignUp">
-          Sign up
+          Sign uupppp
           </Link>
         </div>
       </header>
