@@ -83,8 +83,8 @@ const HomeScreen = () => {
               className="littleMain"
             />
             <h4> Smart energy - smarter care </h4>
-            <h1> Game features </h1>
-            <p> Fun, non competitive game features to incentivise optimal energy usage and reduce waste </p>
+            <h1> Awards for smart energy use </h1>
+            <p> Fun award features to incentivise optimal energy usage and reduce waste </p>
             <p> Encoraging everyone to make deliberate decisions towards a climate-friendly lifestyle </p>
             <p> Engaging and simple, making energy savings effortless and fun! </p>
             </div>
