@@ -79,19 +79,7 @@ const HelpPage = () => {
             <a href="/community-forum" className="button-H">Community Forum</a>
         </div>
         </section>
-        <section className="emailUs">
-                <div className="Home">
-                        <h4>I cannot remember</h4>
-                        <h1>What I was going to put in this box</h1>
-                        <p> Ideas welcome </p>
-                        <p>Email box? </p>
-                        <button onClick={sendEmail} 
-                        className="button-H">
-                        Email Us 
-                        </button>
-                    </div>
-                </section>
-                </section>
+        </section>
         <Footer />
     </div>
     );
