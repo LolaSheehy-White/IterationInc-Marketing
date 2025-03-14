@@ -27,7 +27,7 @@ const Reviews = () => {
         <div className='reviewsPage'>
             <Navbar />
             <section className="reviews-section">
-                <h2>What Our Customers Are Saying</h2>
+                <h2>What our customers are saying:</h2>
                 <div className="reviews-container">
                     {sortedReviews.map((review) => (
                         <div key={review.id} className="review-card">
