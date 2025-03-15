@@ -150,6 +150,8 @@
 .parallax-content .button-link {
   padding: 12px 24px;
   font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
   color: #fff;
   background-color: transparent; 
   text-decoration: none;
