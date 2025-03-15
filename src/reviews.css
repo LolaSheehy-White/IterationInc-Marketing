@@ -41,7 +41,7 @@
 }
 
 .review-rating {
-    color: #f5a623; /* Star color */
+    color: #f5a623;
 }
 
 .review-content {
@@ -57,13 +57,126 @@
 }
 
 #contactUs {
-    padding: 30px;
+    padding: 60px 0;
     background-color: #0542f7d4;
     color: white;
     text-align: center;
 }
 
-#contactUs h2 {
+.contact-container {
+    max-width: 90%;
+    margin: auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.contact-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.contact-header p {
+    color: #7f8c8d;
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.contact-info h2 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+}
+
+.contact-info a {
+    color: #9a34ae; 
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form */
+.contact-form {
+    text-align: center;
+    background-color: #9a34ae2d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.input-field {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.input-field:focus {
+    border-color: #fca17d; 
+    outline: none;
+}
+
+.submit-btn {
+    width: 90%;
+    padding: 15px;
+    background-color: #fca17d;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    outline-offset: 3px;
+}
+
+.submit-btn:hover {
+    background-color: #9a34ae;
+    outline-color: #fca17d;
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+.contact-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.contact-header h1 {
     font-size: 2rem;
 }
 
+.contact-info h2 {
+    font-size: 1.3rem;
+}
+
+.input-field {
+    font-size: 0.95rem;
+}
+
+.submit-btn {
+    font-size: 1rem;
+}
+} 

@@ -48,9 +48,45 @@ const Reviews = () => {
                 </div>
             </section>
             <section id="contactUs">
-                <h2>Contact Us</h2>
-                <p>Feel free to reach out!</p>
-            </section>
+                <div className="contact-container">
+                    <div className="contact-header">
+                    <h1>Contact Us</h1>
+                    <p>We'd love to hear from you. Fill out the form below or reach us at:</p>
+                    </div>
+
+                    {/* Contact Info Section */}
+                    <div className="contact-info">
+                    <h2>Our Contact Information</h2>
+                    <p>Email: <a href="mailto:iterationInc@gmail.com">iterationInc@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+123456789">0131 123 4567</a></p>
+                    </div>
+
+                    {/* Contact Form Section */}
+                    <div className="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form>
+                        <input
+                        type="text"
+                        placeholder="Your Name"
+                        className="input-field"
+                        />
+                        <input
+                        type="email"
+                        placeholder="Your Email"
+                        className="input-field"
+                        />
+                        <textarea
+                        placeholder="Your Message"
+                        className="input-field"
+                        rows="4"
+                        ></textarea>
+                        <button type="submit" className="submit-btn">
+                        Send Message
+                        </button>
+                    </form>
+                    </div>
+                </div>
+                </section>
             <Footer />
         </div>
     );
