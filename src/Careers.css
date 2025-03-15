@@ -1,0 +1,144 @@
+.hero-section {
+    background-image: url('blueBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  .apply-cta-btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .apply-cta-btn:hover {
+    background-color: #ff4500;
+  }
+  
+  /* Job Listings Section */
+  .job-listings {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .search-filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .search-bar {
+    width: 70%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .filter-dropdown {
+    width: 25%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .job-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .job-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .job-card p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .job-location {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .apply-btn {
+    background-color: #9a34ae;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .apply-btn:hover {
+    background-color: #8e2b98;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 60px 20px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section a {
+    color: #ff6600;
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  
