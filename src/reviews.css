@@ -6,7 +6,6 @@
     padding: 40px;
     background-color: #f9f9f9;
     text-align: center;
-    margin-bottom: 40px;
 }
 
 .reviews-container {
@@ -57,62 +56,73 @@
 }
 
 #contactUs {
-    padding: 60px 0;
-    background-color: #0542f7d4;
-    color: white;
-    text-align: center;
+    background: linear-gradient(to left bottom, #0d0628, #4117e5 );
+    color: #f2f2f2; 
+    text-align: Left;
 }
 
 .contact-container {
-    max-width: 90%;
+    max-width: 1100px;
     margin: auto;
     padding: 40px;
-    background-color: white;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: left;
 }
 
 .contact-header h1 {
-    font-size: 2.5rem;
-    color: #2c3e50;
-    margin-bottom: 15px;
+    font-size: 4rem;
+    margin-bottom: 60px;
+    padding-left: 10%;
 }
 
 .contact-header p {
-    color: #7f8c8d;
     font-size: 1rem;
     margin-bottom: 40px;
 }
 
-.contact-info {
-    margin-bottom: 40px;
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+    min-width: 300px;
 }
 
 .contact-info h2 {
-    font-size: 1.5rem;
-    color: #34495e;
+    font-size: 1.8rem;
     margin-bottom: 15px;
 }
 
 .contact-info p {
+    font-size: 1.3rem;
+}
+
+.contactDeets {
+    margin-top: 50px;
+}
+
+.contactDeets p {
     font-size: 1.1rem;
-    color: #7f8c8d;
+    margin: 7px;
 }
 
 .contact-info a {
-    color: #9a34ae; 
+    color: #f2f2f2;
     text-decoration: none;
+    font-style: italic;
 }
 
 .contact-info a:hover {
+    color: #9a34ae;
     text-decoration: underline;
 }
 
 /* Contact Form */
 .contact-form {
-    text-align: center;
-    background-color: #9a34ae2d;
+    background-color: #f2f2f2;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -121,24 +131,30 @@
 .contact-form h2 {
     font-size: 1.5rem;
     margin-bottom: 15px;
+    color: #333;
 }
 
 .input-field {
-    width: 80%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    width: 90%;
+    max-width: 100%;
     padding: 15px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 6px;
     font-size: 1rem;
+    transition: border-color 0.3s ease;
 }
 
 .input-field:focus {
-    border-color: #fca17d; 
+    border-color: #9a34ae;
     outline: none;
 }
 
 .submit-btn {
-    width: 90%;
+    width: 100%;
     padding: 15px;
     background-color: #fca17d;
     color: white;
@@ -147,20 +163,14 @@
     border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    display: inline-block;
-    outline-offset: 3px;
 }
 
 .submit-btn:hover {
     background-color: #9a34ae;
-    outline-color: #fca17d;
-    transform: scale(1.05);
 }
-
 
 @media (max-width: 768px) {
 .contact-container {
-    text-align: center;
     padding: 30px;
 }
 
@@ -172,6 +182,11 @@
     font-size: 1.3rem;
 }
 
+.contact-content {
+    flex-direction: column;
+    align-items: center;
+}
+
 .input-field {
     font-size: 0.95rem;
 }
@@ -179,4 +194,4 @@
 .submit-btn {
     font-size: 1rem;
 }
-} 
+}

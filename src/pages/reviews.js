@@ -51,39 +51,46 @@ const Reviews = () => {
                 <div className="contact-container">
                     <div className="contact-header">
                     <h1>Contact Us</h1>
-                    <p>We'd love to hear from you. Fill out the form below or reach us at:</p>
                     </div>
 
+                    <div className="contact-content">
                     {/* Contact Info Section */}
                     <div className="contact-info">
-                    <h2>Our Contact Information</h2>
-                    <p>Email: <a href="mailto:iterationInc@gmail.com">iterationInc@gmail.com</a></p>
-                    <p>Phone: <a href="tel:+123456789">0131 123 4567</a></p>
+                        <p>We'd love to hear from you.</p>
+                        <h2>Fill out the form to get started </h2>
+                        <p> We aim to respond to all emails within 24 hours.</p>
+                        <div className='contactDeets'>
+                            <p>Email: <a href="mailto:iterationInc@gmail.com">iterationInc@gmail.com</a></p>
+                            <p>Phone: <a href="tel:+123456789">0131 123 4567</a></p>
+                            <p>Instagram: <a href="instagram.com">IterationInc</a></p>
+                            <p>Facebook: <a href="facebook.com">IterationInc</a></p>
+                        </div>
                     </div>
 
                     {/* Contact Form Section */}
                     <div className="contact-form">
-                    <h2>Send Us a Message</h2>
-                    <form>
+                        <h2>Send Us a Message</h2>
+                        <form>
                         <input
-                        type="text"
-                        placeholder="Your Name"
-                        className="input-field"
+                            type="text"
+                            placeholder="Your Name"
+                            className="input-field"
                         />
                         <input
-                        type="email"
-                        placeholder="Your Email"
-                        className="input-field"
+                            type="email"
+                            placeholder="Your Email"
+                            className="input-field"
                         />
                         <textarea
-                        placeholder="Your Message"
-                        className="input-field"
-                        rows="4"
+                            placeholder="Your Message"
+                            className="input-field"
+                            rows="4"
                         ></textarea>
                         <button type="submit" className="submit-btn">
-                        Send Message
+                            Send Message
                         </button>
-                    </form>
+                        </form>
+                    </div>
                     </div>
                 </div>
                 </section>

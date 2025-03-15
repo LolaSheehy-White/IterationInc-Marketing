@@ -116,3 +116,7 @@
 .footer-main .footer-links a:hover {
     color: #9a34ae;
 }
+
+html {
+    scroll-behavior: smooth;
+}

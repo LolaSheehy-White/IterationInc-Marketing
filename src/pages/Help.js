@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 import Navbar from '../components/nav';
 import Footer from '../components/footer';
@@ -8,6 +9,12 @@ import "../navfoot.css";
 import "../help.css"; 
 
 const HelpPage = () => {
+    useEffect(() => {
+        const element = document.getElementById("contactUs");
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    }, []);
     const [activeFAQ, setActiveFAQ] = useState(null);
 
     const toggleFAQ = (index) => {
