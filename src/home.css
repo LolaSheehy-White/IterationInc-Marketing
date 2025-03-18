@@ -68,8 +68,8 @@
   margin-top: 0 !important;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
 
 
@@ -82,15 +82,9 @@
   height: 10vmin;
 }
 
-.USP-unseen{
-  margin-top: 500px;
-  margin-bottom: 700px;
-} 
-
 .USP-intro, .USP-usability, .USP-connectivity, .USP-game{
   margin-top: 90px;
   margin-bottom: 90px;
-  text-align: left;
 }
 
 .main-right {

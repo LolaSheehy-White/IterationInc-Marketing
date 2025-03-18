@@ -24,17 +24,6 @@ const HomeScreen = () => {
 
       <main className="mainH">
         <section className="main-left">
-          <div className="USP-unseen"> 
-            <img
-              src="/images/heartHome.png"
-              alt="Line drawing home with lightbulb and heart inside"
-              className="middleMain"
-            />
-            <h4> Ignore </h4>
-            <h1> I need to fix it </h1>
-            <p> But I keep breaking it</p>
-            <p> This is my fix at this point xox </p>
-            </div>
             <div className="USP-intro"> 
             <img
               src="/images/heartHome.PNG"
