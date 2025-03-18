@@ -111,7 +111,7 @@
 .resources-section h2 {
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .resource-links {
@@ -130,4 +130,18 @@
     color: #0056b3;
 }
 
+.snakeLoading {
+    width: 40%;
+    height: 40%;
+    margin-top: 20px;
+    animation: rotation 3s linear infinite;
+    }
 
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -85,6 +85,8 @@ const HelpPage = () => {
             <a href="/tutorials" className="button-H">Tutorials</a>
             <a href="/community-forum" className="button-H">Community Forum</a>
         </div>
+        <h2>Coming soon!</h2>
+        <img src="/images/iterationincv3.png" alt="Logo" className="snakeLoading" />
         </section>
         </section>
         <Footer />
